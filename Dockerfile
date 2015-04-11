@@ -11,4 +11,4 @@ ADD ./config.ru /usr/local/yhmg/geminabox/config.ru
 
 EXPOSE 9292
 
-CMD bundle exec rackup
+CMD bundle exec rackup --host=0.0.0.0
